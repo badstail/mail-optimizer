@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# Environments
+.env
+.venv/
+myenv/
+
+# Data & Outputs
+data/pdfs/
+outputs/
+
+# OS junk
+.DS_Store

@@ -1,0 +1,8 @@
+pandas
+numpy
+openpyxl
+pdfplumber
+# Optional (only if you need OCR or stronger table extraction later):
+# tabula-py
+# pytesseract
+# pdf2image
