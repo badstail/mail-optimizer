@@ -2,17 +2,14 @@
 __pycache__/
 *.pyc
 
-# VSCode
-.vscode/
-
-# Environments
-.env
+# Virtual envs
 .venv/
-myenv/
+env/
+venv/
 
-# Data & Outputs
-data/pdfs/
+# Outputs
 outputs/
 
-# OS junk
+# OS
 .DS_Store
+
