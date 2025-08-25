@@ -1,6 +1,10 @@
 from pathlib import Path
 import pandas as pd
-from pdf_extractors import extract_top_left_and_right, parse_recipient_and_address, parse_county_and_instrument
+from .pdf_extractors import (
+    extract_top_left_and_right,
+    parse_recipient_and_address,
+    parse_county_and_instrument,
+)
 
 def stage_a(pdf_path, out_xlsx):
     extracted = extract_top_left_and_right(pdf_path)
